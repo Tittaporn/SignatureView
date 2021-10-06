@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="signatureView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xA3-jf-1au">
+                                <rect key="frame" x="10" y="54" width="394" height="798"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NFc-9X-M70" customClass="SwiftSignatureView" customModule="SwiftSignatureView">
+                                        <rect key="frame" x="10" y="10" width="374" height="726"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="DpD-tr-JGB">
+                                        <rect key="frame" x="10" y="746" width="374" height="42"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxe-xQ-ayU">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="close"/>
+                                                <connections>
+                                                    <action selector="closeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PQW-MS-Xwf"/>
+                                                    <segue destination="XUy-FK-n79" kind="show" id="2Dr-VI-JAL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lip-u5-dCp">
+                                                <rect key="frame" x="186" y="0.0" width="53" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="clear"/>
+                                                <connections>
+                                                    <action selector="clearButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tbL-yd-zct"/>
+                                                    <action selector="closeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Nq-LW-nTy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaz-bg-xrq">
+                                                <rect key="frame" x="297" y="0.0" width="77" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Accept"/>
+                                                <connections>
+                                                    <action selector="acceptButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P10-Us-8Hz"/>
+                                                    <segue destination="XUy-FK-n79" kind="show" identifier="acceptAndSegueToImageVC" id="zn6-JS-9RO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="DpD-tr-JGB" firstAttribute="leading" secondItem="xA3-jf-1au" secondAttribute="leading" constant="10" id="1Ay-8W-7f6"/>
+                                    <constraint firstAttribute="trailing" secondItem="DpD-tr-JGB" secondAttribute="trailing" constant="10" id="Lfh-sq-ANS"/>
+                                    <constraint firstAttribute="bottom" secondItem="DpD-tr-JGB" secondAttribute="bottom" constant="10" id="Nhw-zJ-B1A"/>
+                                    <constraint firstAttribute="trailing" secondItem="NFc-9X-M70" secondAttribute="trailing" constant="10" id="gD6-na-M0C"/>
+                                    <constraint firstItem="NFc-9X-M70" firstAttribute="top" secondItem="xA3-jf-1au" secondAttribute="top" constant="10" id="jBC-x2-h1Z"/>
+                                    <constraint firstItem="NFc-9X-M70" firstAttribute="leading" secondItem="xA3-jf-1au" secondAttribute="leading" constant="10" id="nmI-6w-NVx"/>
+                                    <constraint firstItem="DpD-tr-JGB" firstAttribute="top" secondItem="NFc-9X-M70" secondAttribute="bottom" constant="10" id="rZb-cG-Fwf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xA3-jf-1au" secondAttribute="bottom" constant="10" id="3lC-LN-l7p"/>
+                            <constraint firstItem="xA3-jf-1au" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="I8I-Lv-9f6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xA3-jf-1au" secondAttribute="trailing" constant="10" id="SKh-vg-ZEp"/>
+                            <constraint firstItem="xA3-jf-1au" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ZGl-rU-Xfn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="signatureView" destination="NFc-9X-M70" id="PUp-iF-AXC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-109" y="-247"/>
+        </scene>
+        <!--Image Signature View Controller-->
+        <scene sceneID="WXA-cO-iec">
+            <objects>
+                <viewController id="XUy-FK-n79" customClass="ImageSignatureViewController" customModule="signatureView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZOV-jD-c2O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r0V-uh-eiR">
+                                <rect key="frame" x="10" y="670" width="394" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FrG-A8-haK">
+                                <rect key="frame" x="10" y="10" width="394" height="650"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HZL-81-GEQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r0V-uh-eiR" firstAttribute="leading" secondItem="HZL-81-GEQ" secondAttribute="leading" constant="10" id="3IS-Jh-0gF"/>
+                            <constraint firstItem="FrG-A8-haK" firstAttribute="leading" secondItem="HZL-81-GEQ" secondAttribute="leading" constant="10" id="Ccv-z8-cbA"/>
+                            <constraint firstItem="r0V-uh-eiR" firstAttribute="height" secondItem="ZOV-jD-c2O" secondAttribute="height" multiplier="0.152019" id="HQz-5d-gSq"/>
+                            <constraint firstItem="HZL-81-GEQ" firstAttribute="bottom" secondItem="r0V-uh-eiR" secondAttribute="bottom" constant="10" id="Oa5-g6-2q4"/>
+                            <constraint firstItem="FrG-A8-haK" firstAttribute="top" secondItem="HZL-81-GEQ" secondAttribute="top" constant="10" id="Rjh-iB-tHd"/>
+                            <constraint firstItem="HZL-81-GEQ" firstAttribute="trailing" secondItem="FrG-A8-haK" secondAttribute="trailing" constant="10" id="rOG-sm-XQr"/>
+                            <constraint firstItem="r0V-uh-eiR" firstAttribute="centerX" secondItem="HZL-81-GEQ" secondAttribute="centerX" id="sS9-re-1NR"/>
+                            <constraint firstItem="HZL-81-GEQ" firstAttribute="trailing" secondItem="r0V-uh-eiR" secondAttribute="trailing" constant="10" id="sZc-4G-piT"/>
+                            <constraint firstItem="r0V-uh-eiR" firstAttribute="top" secondItem="FrG-A8-haK" secondAttribute="bottom" constant="10" id="vbg-K6-HoE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yEC-0W-Sjs"/>
+                    <connections>
+                        <outlet property="imgBase64" destination="r0V-uh-eiR" id="G3K-cv-oX7"/>
+                        <outlet property="imvSignature" destination="FrG-A8-haK" id="78a-PM-QlZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Pi-Ik-ELR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724.63768115942037" y="-247.09821428571428"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zn6-JS-9RO"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

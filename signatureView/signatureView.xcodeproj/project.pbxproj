@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C406AE28A0BE07BD536231E /* Pods_signatureView_signatureViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF386D64D99DE47A39960B51 /* Pods_signatureView_signatureViewUITests.framework */; };
+		8139F320280D77B998C64D78 /* Pods_signatureViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86D4B72473D7ADA0CF5FEAC /* Pods_signatureViewTests.framework */; };
+		CC3A203926F27B2000ACEC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A203826F27B2000ACEC59 /* AppDelegate.swift */; };
+		CC3A203B26F27B2000ACEC59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A203A26F27B2000ACEC59 /* SceneDelegate.swift */; };
+		CC3A203D26F27B2000ACEC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A203C26F27B2000ACEC59 /* ViewController.swift */; };
+		CC3A204026F27B2000ACEC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3A203E26F27B2000ACEC59 /* Main.storyboard */; };
+		CC3A204226F27B2200ACEC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3A204126F27B2200ACEC59 /* Assets.xcassets */; };
+		CC3A204526F27B2200ACEC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3A204326F27B2200ACEC59 /* LaunchScreen.storyboard */; };
+		CC3A205026F27B2200ACEC59 /* signatureViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A204F26F27B2200ACEC59 /* signatureViewTests.swift */; };
+		CC3A205B26F27B2200ACEC59 /* signatureViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A205A26F27B2200ACEC59 /* signatureViewUITests.swift */; };
+		CC3A206926F27F6B00ACEC59 /* ImageSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A206826F27F6B00ACEC59 /* ImageSignatureViewController.swift */; };
+		CC3A208126F3E04C00ACEC59 /* extentionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A208026F3E04C00ACEC59 /* extentionString.swift */; };
+		FEB9B340A2BB0A4AC276603B /* Pods_signatureView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404E4CDB2877C52B6E77F723 /* Pods_signatureView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3A204C26F27B2200ACEC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3A202D26F27B2000ACEC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3A203426F27B2000ACEC59;
+			remoteInfo = signatureView;
+		};
+		CC3A205726F27B2200ACEC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3A202D26F27B2000ACEC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3A203426F27B2000ACEC59;
+			remoteInfo = signatureView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E1613406399A32C6001257 /* Pods-signatureViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signatureViewTests.release.xcconfig"; path = "Target Support Files/Pods-signatureViewTests/Pods-signatureViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E23F64A89693ED872F388D2 /* Pods-signatureView-signatureViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signatureView-signatureViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-signatureView-signatureViewUITests/Pods-signatureView-signatureViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		404E4CDB2877C52B6E77F723 /* Pods_signatureView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signatureView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6705CD7C66ED13938C12D20C /* Pods-signatureView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signatureView.release.xcconfig"; path = "Target Support Files/Pods-signatureView/Pods-signatureView.release.xcconfig"; sourceTree = "<group>"; };
+		95B6058195339A68F1417A0B /* Pods-signatureView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signatureView.debug.xcconfig"; path = "Target Support Files/Pods-signatureView/Pods-signatureView.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DF24AE29E8CF195A552C78 /* Pods-signatureViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signatureViewTests.debug.xcconfig"; path = "Target Support Files/Pods-signatureViewTests/Pods-signatureViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC3A203526F27B2000ACEC59 /* signatureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = signatureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3A203826F27B2000ACEC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3A203A26F27B2000ACEC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC3A203C26F27B2000ACEC59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3A203F26F27B2000ACEC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3A204126F27B2200ACEC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3A204426F27B2200ACEC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC3A204626F27B2200ACEC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3A204B26F27B2200ACEC59 /* signatureViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = signatureViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3A204F26F27B2200ACEC59 /* signatureViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signatureViewTests.swift; sourceTree = "<group>"; };
+		CC3A205126F27B2200ACEC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3A205626F27B2200ACEC59 /* signatureViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = signatureViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3A205A26F27B2200ACEC59 /* signatureViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signatureViewUITests.swift; sourceTree = "<group>"; };
+		CC3A205C26F27B2200ACEC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3A206826F27F6B00ACEC59 /* ImageSignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSignatureViewController.swift; sourceTree = "<group>"; };
+		CC3A208026F3E04C00ACEC59 /* extentionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentionString.swift; sourceTree = "<group>"; };
+		CF386D64D99DE47A39960B51 /* Pods_signatureView_signatureViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signatureView_signatureViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FF9CC44FA2B758BD5F3A11 /* Pods-signatureView-signatureViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signatureView-signatureViewUITests.release.xcconfig"; path = "Target Support Files/Pods-signatureView-signatureViewUITests/Pods-signatureView-signatureViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D86D4B72473D7ADA0CF5FEAC /* Pods_signatureViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signatureViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3A203226F27B2000ACEC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB9B340A2BB0A4AC276603B /* Pods_signatureView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3A204826F27B2200ACEC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8139F320280D77B998C64D78 /* Pods_signatureViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3A205326F27B2200ACEC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C406AE28A0BE07BD536231E /* Pods_signatureView_signatureViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543D819ABBA82571F13FAD55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B6058195339A68F1417A0B /* Pods-signatureView.debug.xcconfig */,
+				6705CD7C66ED13938C12D20C /* Pods-signatureView.release.xcconfig */,
+				2E23F64A89693ED872F388D2 /* Pods-signatureView-signatureViewUITests.debug.xcconfig */,
+				D5FF9CC44FA2B758BD5F3A11 /* Pods-signatureView-signatureViewUITests.release.xcconfig */,
+				B4DF24AE29E8CF195A552C78 /* Pods-signatureViewTests.debug.xcconfig */,
+				04E1613406399A32C6001257 /* Pods-signatureViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5A1F99963DB415AB2866CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				404E4CDB2877C52B6E77F723 /* Pods_signatureView.framework */,
+				CF386D64D99DE47A39960B51 /* Pods_signatureView_signatureViewUITests.framework */,
+				D86D4B72473D7ADA0CF5FEAC /* Pods_signatureViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3A202C26F27B2000ACEC59 = {
+			isa = PBXGroup;
+			children = (
+				CC3A203726F27B2000ACEC59 /* signatureView */,
+				CC3A204E26F27B2200ACEC59 /* signatureViewTests */,
+				CC3A205926F27B2200ACEC59 /* signatureViewUITests */,
+				CC3A203626F27B2000ACEC59 /* Products */,
+				543D819ABBA82571F13FAD55 /* Pods */,
+				C5A1F99963DB415AB2866CC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3A203626F27B2000ACEC59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3A203526F27B2000ACEC59 /* signatureView.app */,
+				CC3A204B26F27B2200ACEC59 /* signatureViewTests.xctest */,
+				CC3A205626F27B2200ACEC59 /* signatureViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3A203726F27B2000ACEC59 /* signatureView */ = {
+			isa = PBXGroup;
+			children = (
+				CC3A203826F27B2000ACEC59 /* AppDelegate.swift */,
+				CC3A203A26F27B2000ACEC59 /* SceneDelegate.swift */,
+				CC3A203C26F27B2000ACEC59 /* ViewController.swift */,
+				CC3A203E26F27B2000ACEC59 /* Main.storyboard */,
+				CC3A204126F27B2200ACEC59 /* Assets.xcassets */,
+				CC3A204326F27B2200ACEC59 /* LaunchScreen.storyboard */,
+				CC3A204626F27B2200ACEC59 /* Info.plist */,
+				CC3A206826F27F6B00ACEC59 /* ImageSignatureViewController.swift */,
+				CC3A208026F3E04C00ACEC59 /* extentionString.swift */,
+			);
+			path = signatureView;
+			sourceTree = "<group>";
+		};
+		CC3A204E26F27B2200ACEC59 /* signatureViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3A204F26F27B2200ACEC59 /* signatureViewTests.swift */,
+				CC3A205126F27B2200ACEC59 /* Info.plist */,
+			);
+			path = signatureViewTests;
+			sourceTree = "<group>";
+		};
+		CC3A205926F27B2200ACEC59 /* signatureViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3A205A26F27B2200ACEC59 /* signatureViewUITests.swift */,
+				CC3A205C26F27B2200ACEC59 /* Info.plist */,
+			);
+			path = signatureViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3A203426F27B2000ACEC59 /* signatureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3A205F26F27B2200ACEC59 /* Build configuration list for PBXNativeTarget "signatureView" */;
+			buildPhases = (
+				C828FA6866C3051275478B44 /* [CP] Check Pods Manifest.lock */,
+				CC3A203126F27B2000ACEC59 /* Sources */,
+				CC3A203226F27B2000ACEC59 /* Frameworks */,
+				CC3A203326F27B2000ACEC59 /* Resources */,
+				1A1F9B507659BA4630852936 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = signatureView;
+			productName = signatureView;
+			productReference = CC3A203526F27B2000ACEC59 /* signatureView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3A204A26F27B2200ACEC59 /* signatureViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3A206226F27B2200ACEC59 /* Build configuration list for PBXNativeTarget "signatureViewTests" */;
+			buildPhases = (
+				9D884000EB3F8A413512D2D1 /* [CP] Check Pods Manifest.lock */,
+				CC3A204726F27B2200ACEC59 /* Sources */,
+				CC3A204826F27B2200ACEC59 /* Frameworks */,
+				CC3A204926F27B2200ACEC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3A204D26F27B2200ACEC59 /* PBXTargetDependency */,
+			);
+			name = signatureViewTests;
+			productName = signatureViewTests;
+			productReference = CC3A204B26F27B2200ACEC59 /* signatureViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC3A205526F27B2200ACEC59 /* signatureViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3A206526F27B2200ACEC59 /* Build configuration list for PBXNativeTarget "signatureViewUITests" */;
+			buildPhases = (
+				34EC64642D1E2A0FBE602802 /* [CP] Check Pods Manifest.lock */,
+				CC3A205226F27B2200ACEC59 /* Sources */,
+				CC3A205326F27B2200ACEC59 /* Frameworks */,
+				CC3A205426F27B2200ACEC59 /* Resources */,
+				79CDFA8D80D54C91E0B43005 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3A205826F27B2200ACEC59 /* PBXTargetDependency */,
+			);
+			name = signatureViewUITests;
+			productName = signatureViewUITests;
+			productReference = CC3A205626F27B2200ACEC59 /* signatureViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3A202D26F27B2000ACEC59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CC3A203426F27B2000ACEC59 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CC3A204A26F27B2200ACEC59 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CC3A203426F27B2000ACEC59;
+					};
+					CC3A205526F27B2200ACEC59 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CC3A203426F27B2000ACEC59;
+					};
+				};
+			};
+			buildConfigurationList = CC3A203026F27B2000ACEC59 /* Build configuration list for PBXProject "signatureView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3A202C26F27B2000ACEC59;
+			productRefGroup = CC3A203626F27B2000ACEC59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3A203426F27B2000ACEC59 /* signatureView */,
+				CC3A204A26F27B2200ACEC59 /* signatureViewTests */,
+				CC3A205526F27B2200ACEC59 /* signatureViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3A203326F27B2000ACEC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3A204526F27B2200ACEC59 /* LaunchScreen.storyboard in Resources */,
+				CC3A204226F27B2200ACEC59 /* Assets.xcassets in Resources */,
+				CC3A204026F27B2000ACEC59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3A204926F27B2200ACEC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3A205426F27B2200ACEC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1F9B507659BA4630852936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signatureView/Pods-signatureView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signatureView/Pods-signatureView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-signatureView/Pods-signatureView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34EC64642D1E2A0FBE602802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signatureView-signatureViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CDFA8D80D54C91E0B43005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signatureView-signatureViewUITests/Pods-signatureView-signatureViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signatureView-signatureViewUITests/Pods-signatureView-signatureViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-signatureView-signatureViewUITests/Pods-signatureView-signatureViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D884000EB3F8A413512D2D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signatureViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C828FA6866C3051275478B44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signatureView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3A203126F27B2000ACEC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3A203D26F27B2000ACEC59 /* ViewController.swift in Sources */,
+				CC3A208126F3E04C00ACEC59 /* extentionString.swift in Sources */,
+				CC3A206926F27F6B00ACEC59 /* ImageSignatureViewController.swift in Sources */,
+				CC3A203926F27B2000ACEC59 /* AppDelegate.swift in Sources */,
+				CC3A203B26F27B2000ACEC59 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3A204726F27B2200ACEC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3A205026F27B2200ACEC59 /* signatureViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3A205226F27B2200ACEC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3A205B26F27B2200ACEC59 /* signatureViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3A204D26F27B2200ACEC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3A203426F27B2000ACEC59 /* signatureView */;
+			targetProxy = CC3A204C26F27B2200ACEC59 /* PBXContainerItemProxy */;
+		};
+		CC3A205826F27B2200ACEC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3A203426F27B2000ACEC59 /* signatureView */;
+			targetProxy = CC3A205726F27B2200ACEC59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3A203E26F27B2000ACEC59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3A203F26F27B2000ACEC59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC3A204326F27B2200ACEC59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3A204426F27B2200ACEC59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3A205D26F27B2200ACEC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3A205E26F27B2200ACEC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3A206026F27B2200ACEC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B6058195339A68F1417A0B /* Pods-signatureView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TC3ZYV7J7;
+				INFOPLIST_FILE = signatureView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m3ts.signatureView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3A206126F27B2200ACEC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6705CD7C66ED13938C12D20C /* Pods-signatureView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TC3ZYV7J7;
+				INFOPLIST_FILE = signatureView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m3ts.signatureView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC3A206326F27B2200ACEC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DF24AE29E8CF195A552C78 /* Pods-signatureViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TC3ZYV7J7;
+				INFOPLIST_FILE = signatureViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m3ts.signatureViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/signatureView.app/signatureView";
+			};
+			name = Debug;
+		};
+		CC3A206426F27B2200ACEC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E1613406399A32C6001257 /* Pods-signatureViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TC3ZYV7J7;
+				INFOPLIST_FILE = signatureViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m3ts.signatureViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/signatureView.app/signatureView";
+			};
+			name = Release;
+		};
+		CC3A206626F27B2200ACEC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E23F64A89693ED872F388D2 /* Pods-signatureView-signatureViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TC3ZYV7J7;
+				INFOPLIST_FILE = signatureViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m3ts.signatureViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = signatureView;
+			};
+			name = Debug;
+		};
+		CC3A206726F27B2200ACEC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FF9CC44FA2B758BD5F3A11 /* Pods-signatureView-signatureViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TC3ZYV7J7;
+				INFOPLIST_FILE = signatureViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.m3ts.signatureViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = signatureView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3A203026F27B2000ACEC59 /* Build configuration list for PBXProject "signatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3A205D26F27B2200ACEC59 /* Debug */,
+				CC3A205E26F27B2200ACEC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3A205F26F27B2200ACEC59 /* Build configuration list for PBXNativeTarget "signatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3A206026F27B2200ACEC59 /* Debug */,
+				CC3A206126F27B2200ACEC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3A206226F27B2200ACEC59 /* Build configuration list for PBXNativeTarget "signatureViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3A206326F27B2200ACEC59 /* Debug */,
+				CC3A206426F27B2200ACEC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3A206526F27B2200ACEC59 /* Build configuration list for PBXNativeTarget "signatureViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3A206626F27B2200ACEC59 /* Debug */,
+				CC3A206726F27B2200ACEC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3A202D26F27B2000ACEC59 /* Project object */;
+}
